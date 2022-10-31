@@ -5,13 +5,13 @@ int static swappingseatseconomy(int seatingchart[],int y);
 int static swappingseats(int seatingchart[],int y);
 
 int main(){
-    int class;
+    int cl;
     int seatsfirstclass;
     int seatseconomyclass;
     int seatingchart[100]={0};
     printf("Select Type of Class\n Press 1 for First Class\n Press 2 for Economy class\nAnd press 0 if you want to view the seating chart\n");
-    scanf("%d",&class);
-    switch (class){
+    scanf("%d",&cl);
+    switch (cl){
     case 1:
     printf("Enter your seat number(1-30)\n");
     scanf("%d",&seatsfirstclass);
